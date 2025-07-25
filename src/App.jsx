@@ -10,7 +10,7 @@ import MyBooking from './Pages/MyBooking'
 import Favorite from './Pages/Favorite'
 import { Toaster } from 'react-hot-toast'
 import Footer from './Componets/Footer'
-import Layout from './Pages/Addmin/Layout.Jsx'
+import Layout from './Pages/Addmin/Layout.jsx'
 import DashBoard from './Pages/Addmin/DashBoard'
 import AddShows from './Pages/Addmin/AddShows'
 import ListShows from './Pages/Addmin/ListShows'
@@ -32,12 +32,12 @@ function App() {
         <Route path='/my-bookings' element={<MyBooking></MyBooking>}></Route>
         <Route path='/favorite' element={<Favorite></Favorite>}></Route>
 {/* ==================this routing to used Admin pages================== */}
-        {/* <Route path='/admin/*' element={<Layout></Layout>}>
+        <Route path='/admin/*' element={<Layout></Layout>}>
         <Route index element={<DashBoard></DashBoard>}/>
         <Route path='add-shows' element={<AddShows></AddShows>} />
         <Route path='list-show' element={<ListShows></ListShows>}/>
         <Route  path='list-bookings' element={<ListBooking></ListBooking>}/>
-        </Route> */}
+        </Route>
         {/* ==================end====================================== */}
       </Routes>
       {!isAdminRouter && <Footer></Footer>}
