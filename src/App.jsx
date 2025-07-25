@@ -32,12 +32,12 @@ function App() {
         <Route path='/my-bookings' element={<MyBooking></MyBooking>}></Route>
         <Route path='/favorite' element={<Favorite></Favorite>}></Route>
 {/* ==================this routing to used Admin pages================== */}
-        <Route path='/admin/*' element={<Layout></Layout>}>
+        {/* <Route path='/admin/*' element={<Layout></Layout>}>
         <Route index element={<DashBoard></DashBoard>}/>
         <Route path='add-shows' element={<AddShows></AddShows>} />
         <Route path='list-show' element={<ListShows></ListShows>}/>
         <Route  path='list-bookings' element={<ListBooking></ListBooking>}/>
-        </Route>
+        </Route> */}
         {/* ==================end====================================== */}
       </Routes>
       {!isAdminRouter && <Footer></Footer>}
