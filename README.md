@@ -13,6 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![image alt](https://github.com/atulmunesh07/Movie-Ticket/blob/622204b4ca3dd2c4eb8add874a6911c8f156c1ea/public/Screenshot3.png)
 ![image alt](https://github.com/atulmunesh07/Movie-Ticket/blob/32e6cdba1ad573b3344f24772a0b4646a1fcb693/public/Screenshot.png)
+![image alt](https://github.com/atulmunesh07/Movie-Ticket/blob/7ef6d07b2c7e24cc71ea32d021b7002d62c2151f/public/Screenshot2.png)
 
 
 
